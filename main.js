@@ -70,7 +70,13 @@ class TriviaScene extends Phaser.Scene {
         this.preguntas = [
             {pregunta:"¿Que comen los patos?", opciones:["Pastel","Picafresas","Frutas y verduras","Almas"], correcta:2},
             {pregunta:"¿Que no puede hacer un pato ?", opciones:["Volar","Nadar","Correr","El mal "], correcta:3},
-            {pregunta:"¿Que tiene que tener el espacio de un pato si o si ?", opciones:["Agua","Una tele","Tenis","Pistola"], correcta:0}
+            {pregunta:"¿Que tiene que tener el espacio de un pato si o si ?", opciones:["Agua","Una tele","Tenis","Pistola"], correcta:0},
+            {pregunta:"¿Qué hace un pato cuando está feliz?", opciones:["Baila","Cuac cuac","Programa en Java","Invoca demonios"], correcta:1},
+            {pregunta:"¿Qué NO necesita un pato para vivir?", opciones:["Agua","Comida","Un lago","Una nave espacial"], correcta:3},
+            {pregunta:"¿Qué pasaría si un pato fuera al espacio?", opciones:["Flotaría","Diría cuac","Se volvería astronauta","Nada porque es un pato"], correcta:3},
+            {pregunta:"¿Qué haría un pato con una computadora?", opciones:["Programar","Picar el teclado","Ver memes","Dominar el mundo"], correcta:1},
+            {pregunta:"¿Qué superpoder tendría un pato?", opciones:["Volar más rápido","Controlar el agua","Leer mentes","Convertir pan en oro"], correcta:0},
+
         ];
 
         // Texto de vidas y puntaje
@@ -253,3 +259,4 @@ if ("serviceWorker" in navigator) {
   });
 
 }
+
