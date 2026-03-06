@@ -1,0 +1,16 @@
+/* Estilos para todo el cuerpo de la página */
+body {
+  margin: 0; /* Quita los márgenes predeterminados del navegador */
+  background: #1c375c; /* Color de fondo naranja/marrón */
+  display: flex; /* Utiliza flexbox para alinear contenido fácilmente */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  overflow: hidden; /* Oculta cualquier contenido que se salga de la ventana */
+}
+
+/* Estilos para todos los elementos canvas */
+canvas {
+  display: block; /* Hace que el canvas se comporte como un bloque y elimina espacios extra */
+  margin: 0; /* Quita los márgenes predeterminados del navegador */
+  position: absolute; /* Posiciona el canvas de forma absoluta para que ocupe toda la pantalla */ 
+}
